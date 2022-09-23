@@ -11,13 +11,13 @@ let D = Math.sqrt(d);
 let x1;
 let x2;
 
-if(D > 0){
+if(d > 0){
     x1=(((-b)+D)/2*a);
     x2=(((-b)-D)/2*a);
     console.log(`Перше значення = ${x1}, друге значення = ${x2}.`);
 }else if(D == 0){
     x1 = ((-b)/2*a);
-    console.log(`Значення = ${x1}.`);
+    
 }else{
     console.log("Розв'язків немає");
 }*/
